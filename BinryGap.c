@@ -22,6 +22,9 @@ N is an integer within the range [1..2,147,483,647].
 
 int solution(int N) 
 {
+    /*
+        intilaization vaiables    
+    */
     int Local_u32_Value = 0;
     int Local_u32_Increament = 0;
     int Local_u32_Count = 0;
