@@ -33,9 +33,9 @@ int solution(char *S)
     else 
     {
         char * stack = (char*)malloc(sizeof(char) * (str / 2));  // creat a stack 
-        stack[top] = S[i];
+        stack[top] = S[i];  // adding first first character to the first element on stack 
         i++;
-        while(i != str)
+        while(i != str)  // ending when i equal to strlen(string)
         {
             //pop exsisting element
             if(((stack[top]+1) == S[i]) || ((stack[top] + 2) == S[i]))
